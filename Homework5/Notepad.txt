@@ -1,0 +1,60 @@
+
+1)	Explain all input types with examples?
+
+Input element allows to take the input to act accordingly
+<input type="text"> defines a one-line text input field
+<input type="password"> defines a password field:
+<input type="submit"> defines a button for submitting form data to a form-handler
+<input type="reset"> defines a reset button that will reset all form values to their default values
+<input type="radio"> defines a radio button
+<input type="checkbox"> defines a checkbox
+<input type="button"> defines a button
+
+2)	explain all the input attributes?
+
+The disabled attribute specifies that the input field is disabled. A disabled input field is unusable and un-clickable, and its value will not be sent when submitting the form
+The size attribute specifies the size (in characters) for the input field
+The maxlength attribute specifies the maximum allowed length for the input field
+The autocomplete attribute specifies whether a form or input field should have autocomplete on or off.When autocomplete is on, the browser automatically complete the input values based on values that the user has entered before.
+The novalidate attribute is a <form> attribute.When present, novalidate specifies that the form data should not be validated when submitted
+The autofocus attribute specifies that the input field should automatically get focus when the page loads
+The form attribute specifies one or more forms an <input> element belongs to
+The formaction attribute specifies the URL of a file that will process the input control when the form is submitted.The formaction attribute overrides the action attribute of the <form> element.
+The formmethod attribute defines the HTTP method for sending form-data to the action URL.and this attribute overrides the method attribute of the <form> element.
+The height and width attributes specify the height and width of an <input type="image"> element
+The min and max attributes specify the minimum and maximum values for an <input> element and work with the following input types: number, range, date, datetime-local, month, time and week.
+The multiple attribute specifies that the user is allowed to enter more than one value in the <input> element and works with the following input types: email, and file.
+The pattern attribute specifies a regular expression that the <input> element's value is checked against. and pattern attribute works with the following input types: text, search, url, tel, email, and password
+
+3)	what are sematic elements? 
+
+A semantic element clearly describes its meaning to both the browser and the developer. For an instance, few elements like <form>, <table>, and <article> precisely explains about the potential outcome.
+
+4)	Diff between article, section, div?
+
+Article element specifies independent, self-contained content like news blog or a forum. Section is to define a section in a document like breaking the content into different sections. And div defines the division or a section in an HTML document
+
+5)	explain with exmaples about <article>, <aside>, <details>, <figcaption>, <figure>, <footer>, <header>, <main>, <mark>, <nav>, <section>, <summary>, <time>
+
+The <article> tag specifies independent, self-contained content.
+The <aside> tag defines some content aside from the content it is placed in.
+The aside content should be related to the surrounding content.
+The <details> tag specifies additional details that the user can view or hide on demand
+The <fig caption> tag defines a caption for a <figure> element and can be placed as the first or last child of the <figure> element
+The <figure> tag specifies self-contained content, like illustrations, diagrams, photos, code listings, etc
+The <footer> tag defines a footer for a document or section.
+The <header> element represents a container for introductory content or a set of navigational links
+The <main> tag specifies the main content of a document
+The <mark> tag defines marked text
+The <nav> tag defines a set of navigation links
+The <section> tag defines sections in a document, such as chapters, headers, footers, or any other sections of the document.
+The <summary> tag defines a visible heading for the <details> element. The heading can be clicked to view/hide the details.
+The <time> tag defines a human-readable date/time.
+
+6)	what is form and what is form validation in html?
+
+It is defined as a form used to collect input from the user. Validation is the process of checking data against a standard or requirement like checking the information entered by a person when sending information or using an online service.
+
+7)	Differences between html4 and html5? explain in more details?
+
+html 4 and html 5 are two different versions which are compatible with most of the browsers, however html5 is the new addition made to html4 to derive better performance and results. Doctype declaration was too long in html 4, when compared to html 5 so as the same with character encoding. Audio and video are not part of html4 which can be played using the third-party tool such as adobe, whereas in html5 multimedia features are provided inbuilt and are performed using the audio and video tags.HTML5 introduces number of APIs that help in creating Web applications. These can be used together with the new elements introduced for applications. Adding new elements with useful semantics – <article>, <section>, <header>, <aside>, and <nav> should replace most <div>s used on a web page, making the pages a bit more semantic, but more importantly, easier to read.

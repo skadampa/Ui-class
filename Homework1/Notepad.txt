@@ -1,0 +1,37 @@
+Homework 1: 
+
+1)what is version control tool?
+
+Version control tool is a system that records changes to a file or set of files over time so that one can recall specific versions later if required as per the need. It emphasizes more on data retrieve, meaning if two or more working on a project, it helps to track the inputs made by, any changes made to the existing with the modified information with name and date. Which helps in the form of documentation along with the tracking.
+ 
+2)what is repository?
+
+A repository is a place, room or storage where something is stored or saved, In this context the huge amount of data, such as files, codes and other data can be stored for distribution over a network or a direct access.
+
+3)why do we need to use repository in software development?
+
+Repository plays a pivotal role in software development, As this job     consists of huge data exchange, in order to maintain such data which include codes, programs, files etc.,
+
+4)what is GIT? 
+
+This is a distributed version control system, it can be used as a server out of the box. Dedicated Git server software helps, amongst other features, to add access control, display the contents of a Git repository via the web, and help managing multiple repositories.
+
+ 5)what is github?
+  
+A web based hosted service for Git repositories. Git is a popular open-source version control system. GitHub allows to host remote git repositories and has a wealth of community based services that make it ideal for open source projects.
+
+6)Differences between git and github?
+
+Git is a version control system, it helps to display the contents of a Git repository through exchange, where as git hub helps to access the repositories or any changes to the codes in repository through hosted service.
+  
+7)what is pull, push, commit in git?
+   
+Pull: To retrieve the last committed files to make or add changes.
+push: To transfer the last commit(s) to a remote server
+commit: Adding changes to the local repository
+
+
+8)what are merge conflicts? 
+
+Merge conflicts can be referred as, may occur if competing changes are made to the same line of a file or when a file is deleted that another person is attempting to edit.
+

@@ -1,0 +1,52 @@
+Home work 4 -- December-21-2016
+
+explain with examples:
+
+1)	how to create a list in html? orderlists and un orderlists
+
+Creation of list in html is derived out of mainly with order lists and Un order list
+An unordered list starts with the <ul> tag. Each list item starts with the <li> tag.
+An ordered list starts with the <ol> tag. Each list item starts with the <li> ta
+
+2)	how to include images in html?
+
+In HTML, images are defined with the <img> tag. The <img> tag is empty, it contains attributes only, and does not have a closing tag. The Src attribute specifies the URL (web address) of the image
+
+3)	how to take user input in html?
+
+There are different ways to take user input, it can be either, asking user to type in through message box or we can have a form on the screen where the user types the information in the form and submits through button click.
+
+4)	how to have links to different web pages and link to different part of same webpage?
+
+Well, in order to have the links to different web pages is done with the anchor tag, the <A> tag followed by attribute. For a link to another web page, the "A" is followed by "HREF". To set a bookmark in the same page, the "A" is followed by "NAME".
+Ex: <A HREF = "http://www.google.com/">Google Search Engine</A>
+
+5)	what is head, body, html element and why do we need them in the page?
+Head , body 
+
+The HTML <head> element provides general information (metadata) about the document, including its title and links to its scripts and style sheets.
+<html>
+<head>
+<title>Document title</title>
+</head>
+</html>
+
+The HTML <body> Element represents the content of an HTML document. There can be only one <body> element in a document.
+
+<html>
+<head>
+<title>Document title</title>
+</head>
+<body>
+<p>This is a paragraph</p>
+</body>
+</html>
+
+An HTML element usually consists of a start tag and end tag, with the content inserted in between and it can be said to be everything from the start tag to end tag. Examples of elements are
+<head>, <title>, <body>, <header>, <article>, <section>, <p>, <div>, <span>, <img>, and so on.
+
+So, in order to have a meaningful content oriented web page, these play a pivotal role to get the end result.
+
+6)	 what are semantic element, describe about each one of them?
+
+A semantic element clearly describes its meaning to both the browser and the developer. For an instance, few elements like <form>, <table>, and <article> precisely explains about the potential outcome.

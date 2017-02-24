@@ -1,0 +1,51 @@
+1)How to resolve merge conflicts?
+
+Merger conflicts arise due to bunch of people working on the same file using the same repository, trying to make changes or add, as the worked files are not committed or pushed in the repository properly, it finds difficult to other users to add or commit the same, so in order to fix the issue need to do changes manually by getting into the file and updating it with proper format and steps to add it to the repository.
+
+2)what is html? how to create a html document?
+
+Html is a standard markup language for creating a web page and it stands for Hyper Text Markup language, it portraits the structure of web pages using markup , elements are the building blocks of html page and are represented by tags.
+
+Html document
+
+<! DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<h1>This is UI class</h1>
+<p>Welcome aboard</p>
+
+</body>
+</html>
+
+3)what is doctype?
+
+Doctype is declaration made at the initiation stage of creation to instruct the web browser about what version of HTML the page is written in
+
+4)what is a tag and element in html?
+Tags are used to mark up the start and end of an Html element. A start tag consists of an opening angle bracket ( < ) followed by the element name, zero or more space separated attribute/value pairs, and a closing angle bracket ( > ).whereas element in HTML represents some kind of structure or semantics and generally consists of a start tag, content, and an end tag. 
+Ex
+<p> this is a paragraph element </p>
+
+
+5)what is an attribute in html?
+An attribute defines a property for an element, consists of an attribute/value pair, and appears within the element's start tag. An element's start tag may contain any number of space separated attribute/value pairs.
+
+6)create a simple html page? write code.
+
+<! DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<h1>This is UI class</h1>
+<p>Welcome aboard</p>
+
+</body>
+</html>
+
