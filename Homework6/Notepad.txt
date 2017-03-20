@@ -1,0 +1,45 @@
+1)	Different types in css? 
+
+Inline styles
+
+Inline styles are styles that are written directly in the tag on the document. Inline styles affect only the tag they are applied to.
+
+<a href="" style="text-decoration: none;">
+
+Embedded Styles
+
+Embedded styles are styles that are embedded in the head of the document. Embedded styles affect only the tags on the page they are embedded in
+
+<style type="text/css">
+p { color: #00f; }
+</style>
+
+External styles
+
+External styles are styles that are written in a separate document and then attached to various Web documents. External style sheets can affect any document they are attached to.
+
+<link rel="stylesheet" type="text/css" href="styles.css" />
+
+2)	what is cascading in css?
+
+"Cascading" means that styles can fall (or cascade) from one style sheet to another, enabling multiple style sheets to be used on one HTML document. Even the simplest HTML document may have three or more style sheets associated with it including: The browser's style sheet, The user's style sheet, The author's style.
+
+3)	why do we need to use css?
+
+Cascading style sheets have many benefits. They allow us to use the same style sheet across your entire website. There are two ways to do this:
+1.	linking with the LINK element
+<link rel="stylesheet" href="styles.css">
+2.	importing with the @import command
+<style>
+  @import url('http://www.yoursite.com/styles.css');
+</style>
+
+One of the best things about cascading style sheets is that we can use them to keep our site consistent. The easiest way to do this is to link or import an external style sheet. And it also helps to have the same styles for all the pages in the site.
+
+4) which type of CSS is a better practice?
+
+When working with style sheets, it can sometimes be very difficult to figure out where a style is being set. When you add a mixture of inline, embedded and external sheets and have even more locations to look. If we must redesign or maintain a site built by someone else, then it’s going to be even more trouble. Then, once you find the style and get rid of it, you'll have to get rid of it on every element on every page where it's been placed. Which can increase the maintenance work astronomically. Instead of using inline styles, use external style sheets. External style sheets give you all the benefits of CSS best practices and are easy to use. So, this explains using of external sheets is the best practice compared to inline and embedded styles, especially in the big projects.
+
+5) what are selectors and why do we need them in CSS?
+
+In CSS, selectors are patterns used to select the element(s) you want to style and these play a pivotal role in styling different elements as per the selectors the part of a CSS rule set that selects the content you want to style

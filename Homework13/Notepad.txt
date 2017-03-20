@@ -1,0 +1,95 @@
+1)	operational precendence?
+
+Operator precedence determines the order in which operators are evaluated. Operators with higher precedence are evaluated first. The multiplication operator ("*") has higher precedence than the addition operator ("+") and thus will be evaluated first.
+
+Ex: 5+3*15 // returns 50
+
+2)	truthy value and falsy value?
+
+JavaScript supports Boolean data types; values which can be set to true or false. In addition, everything in JavaScript has an inherent Boolean value, generally known as either truthy or falsy values. Handling truthy and falsy values can be a little quirky, especially when comparing variables.
+
+Truthy and Falsy Values
+
+The following values are always falsy
+•	False
+•	0 (Zero)
+•	“” ( Empty string)
+•	Null
+•	Undefined
+•	NaN ( Not a number)
+
+All other values are truthy, including "0" (zero in quotes), "false" (false in quotes), empty functions, empty arrays, and empty objects.
+
+•	var a  =  ! !  (0);  // variable is set to false
+•	var b  =  ! ! ("0"); // true
+•	
+
+3)	logical and(&&), logical or(||)?
+
+Logical operators are typically used with Boolean (logical) values. When they are, they return a Boolean value. However, the && and || operators actually return the value of one of the specified operands, so if these operators are used with non-Boolean values, they may return a non-Boolean value.
+
+Logical AND (&&) : If taken into consideration exp 1 and exp 2 , then the result is, Returns expr1 if it can be converted to false; otherwise, returns expr2. Thus, when used with Boolean values, && returns true if both operands are true; otherwise, returns false.
+
+Logical OR (||) : If taken into consideration exp 1  exp 2. Then the result is, Returns expr1 if it can be converted to true; otherwise, returns expr2. Thus, when used with Boolean values, || returns true if either operand is true.
+
+4)	conditions in javascript? 
+
+In order to perform different actions for different decisions. One can use conditional statements.
+Following are the conditional statements:
+
+ if statement is used to specify a block of JavaScript code to be executed if a condition is true
+if (condition) {
+    block of code to be executed if the condition is true
+}
+else statement is used  to specify a block of code to be executed if the condition is false.
+if (condition) {
+    block of code to be executed if the condition is true
+} else { 
+    block of code to be executed if the condition is false
+}
+ else if statement is used to specify a new condition if the first condition is false.
+if (condition1) {
+    block of code to be executed if condition1 is true
+} else if (condition2) {
+    block of code to be executed if the condition1 is false and condition2 is true
+} else {
+    block of code to be executed if the condition1 is false and condition2 is false
+}
+
+5)	(post and pre) increment and (post and pre) decrement?
+
+The concept  of pre-increment (++i) and post-increment (i++). It certain circumstances, they can yield entirely the same result,
+For ex:
+Var i = 0;
+++i;
+Console.log(i == 1); // True
+Var i = 0;
+i++;
+Console.log(i == 1); //True
+So they both will increment a value, but the key difference is at what point that increment applied.
+With ++i, the value is incremented, then evaluated. So if i was 1, it would be evaluated as 2. With i++, if i was 1, it would be evaluated as 1, but then stored as 2. These statements both seem to mean the same thing, well, they do, if the expressions are used in a standalone fashion as above.
+
+–i (Pre decrement): It will decrement the value of i even before assigning it to the variable i.
+i– (Post decrement): The operator will return the variable value first (i.e, i value) then only i value is decrements by 1.
+
+
+
+6)	loops (while, do while, for loop)?
+
+Loops can execute a block of code as long as a specified condition is true.
+The while loop loops through a block of code as long as a specified condition is true
+while (condition) {
+    code block to be executed
+}
+The do/while loop is a variant of the while loop. This loop will execute the code block once, before checking if the condition is true, then it will repeat the loop as long as the condition is true.
+do {
+    code block to be executed
+}
+while (condition);
+
+The for loop is often the tool you will use when you want to create a loop.
+The for loop has the following syntax:
+for (statement 1; statement 2; statement 3) {
+    code block to be executed
+}
+

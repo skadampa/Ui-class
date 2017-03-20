@@ -1,0 +1,42 @@
+1.	what are media queries?
+
+The media rule is used to define different style rules for different media types/devices.
+In CSS2 this was called media types, while in CSS3 it is called media queries.
+Media queries look at the capability of the device, and can be used to check many things, such as: width and height of the viewport, width and height of the device, orientation (is the tablet/phone in landscape or portrait mode), resolution and much more
+
+2.	In media queries what are following properties min-width, max-width, resolution, screen, print, speech, with examples
+
+The min-width property is used to set the minimum width of an element. This prevents the value of the width property from becoming smaller than min-width.
+
+The max-width property is used to set the maximum width of an element. This prevents the value of the width property from becoming larger than max-width.
+Indicates the resolution (pixel density) of the output device. The resolution may be specified in either dots per inch (dpi) or dots per centimeter (dpcm).
+Ex: To apply a style sheet to devices with at least 300 dots per inch of resolution:
+@media print and (min-resolution: 300dpi
+
+Print , screen , speech and all are media types and  these are used to generate print using the printers , and screen is used for computer screen, tablets , smart-phones etc. Speech is used for screen-readers that reads the page out load.
+
+3.	what are position property values in css (static, relative, absolute, fixed) explain differences ?
+
+The position property specifies the type of positioning method used for an element. Such as static a Default value. Elements render in order, as they appear in the document flow, absolute : The element is positioned relative to its first positioned (not static) ancestor element, fixed : The element is positioned relative to the browser window, relative The element is positioned relative to its normal position.(ex:"left:30px" adds 30 pixels to the element's LEFT position).
+
+4.	what is a float and clear property in css?
+
+The float property specifies whether an element should float. In its simplest use, the float property can be used to wrap text around images.
+
+The clear property is used to control the behavior of floating elements. Elements after a floating element will flow around it. To avoid this, use the clear property.The clear property specifies on which sides of an element floating elements are not allowed to float
+
+5.	what is bootstrap grid system? rows and columns?
+Bootstrap's grid system is responsive, it allows up to 12 columns across the page and the columns will re-arrange depending on the screen size: On a big screen, it might look better with the content organized in three columns, but on a small screen it would be better if the content items were stacked on top of each other.
+
+6.	what are xs, sm, md, lg in bootstrap?
+
+Xs, md, sm, and lg are grid classes and these are used to have layouts as per the device, such as xs is used for phones, md for desktops , sm for tablets  and lg for larger desktops and in order to have flexible and robust layouts we can combine the above classes.
+
+7.	differences between container and container-fluid?
+
+.container is like achieving responsive view with media query. The viewport width remains fixed for specific screen sizes whereas .container-fluid the width of the viewport keeps on changing even with a slightest change in the screen / browser size.
+
+8.	what are the break points to be use in media queries for mobile, tablets, medium size desktops and large desktops?
+
+Break points are used to design in a such way that,  are compatible and web responsive is consistent in all irrespective of device , Mobile First means designing for mobile before designing for desktop or any other device (This will make the page display faster on smaller devices).
+

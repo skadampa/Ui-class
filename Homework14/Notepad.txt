@@ -1,0 +1,94 @@
+1)	all methods for numbers, string, array
+
+For Numbers
+
+The Number.isNaN() method determines whether the passed value is NaN and its type is Number. It is a more robust version of the original, global isNaN().
+Number.isNaN(value)
+
+The Number.isFinite() method determines whether the passed value is a finite number.
+Number.isFinite(value)
+
+The Number.isInteger() method determines whether the passed value is an integer.
+Number.isInteger(value)
+
+The Number.isSafeInteger() method determines whether the provided value is a number that is a safe integer. A safe integer is an integer that
+Number.isSafeInteger(testValue)
+
+The toExponential() method returns a string representing the Number object in exponential notation.
+numObj.toExponential([fractionDigits])
+
+The toFixed() method formats a number using fixed-point notation.
+numObj.toFixed([digits])
+
+The toLocaleString() method returns a string with a language sensitive representation of this number.
+numObj.toLocaleString([locales [, options]])
+
+The toPrecision() method returns a string representing the Number object to the specified precision.
+numObj.toPrecision([precision])
+
+For String
+
+The static String.fromCharCode() method returns a string created by using the specified sequence of Unicode values
+String.fromCharCode(num1[, ...[, numN]])
+
+The static String.fromCodePoint() method returns a string created by using the specified sequence of code points.
+String.fromCodePoint(num1[, ...[, numN]])
+
+The anchor() method creates an <a> HTML anchor element that is used as a hypertext target.
+str.anchor(name)
+
+The charAt() method returns the specified character from a string
+str.charAt(index)
+
+The codePointAt() method returns a non-negative integer that is the Unicode code point value.
+str.codePointAt(pos)
+
+The repeat() method constructs and returns a new string which contains the specified number of copies of the string on which it was called, concatenated together.
+/** 
+ * str: String
+ * count: Number
+ */
+
+let resultString = str.repeat(count);
+
+The concat() method combines the text of one or more strings and returns a new string.
+str.concat(string2[, string3, ..., stringN])
+
+The replace() method returns a new string with some or all matches of a pattern replaced by a replacement. The pattern can be a string or a RegExp, and the replacement can be a string or a function to be called for each match.
+str.replace(regexp|substr, newSubstr|function)
+
+The trim() method removes whitespace from both ends of a string. Whitespace in this context is all the whitespace characters (space, tab, no-break space, etc.) and all the line terminator characters (LF, CR, etc.).
+str.trim()
+
+The [@@iterator]() method returns a new Iterator object that iterates over the code points of a String value, returning each code point as a String value.
+string[Symbol.iterator]
+
+
+For Array
+
+The Array.from() method creates a new Array instance from an array-like or iterable object.
+Array.from(arrayLike[, mapFn[, thisArg]])
+The Array.isArray() determines whether the passed value is an Array.
+Array.isArray(obj)
+
+The concat() method is used to merge two or more arrays. This method does not change the existing arrays, but instead returns a new array.
+var new_array = old_array.concat(value1[, value2[, ...[, valueN]]])
+
+The copyWithin() method shallow copies part of an array to another location in the same array and returns it, without modifying its size.
+arr.copyWithin(target)
+arr.copyWithin(target, start)
+arr.copyWithin(target, start, end)
+
+The includes() method determines whether an array includes a certain element, returning true or false as appropriate
+arr.includes(searchElement)
+arr.includes(searchElement, fromIndex)
+
+The push() method adds one or more elements to the end of an array and returns the new length of the array.
+arr.push([element1[, ...[, elementN]]])
+The slice() method returns a shallow copy of a portion of an array into a new array object selected from begin to end (end not included). The original array will not be modified
+arr.slice()
+arr.slice(begin)
+arr.slice(begin, end)
+
+The toString() method returns a string representing the specified array and its elements.
+arr.toString()

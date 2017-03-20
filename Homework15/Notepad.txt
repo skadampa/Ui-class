@@ -1,0 +1,101 @@
+explain with examples about all properties and methods of strings and arrays
+
+For Array
+
+Properties
+
+The array length property sets or returns the number of elements in an array. It represents an unsigned, 32-bit integer that is always numerically greater than the highest index in the array.
+
+The Array.prototype property represents the prototype for the Array constructor and allows you to add new properties and methods to all Array objects.
+The @@unscopable symbol property contains property names that were not included in the ECMAScript standard prior to the ES2015 version. These properties are excluded from with statement bindings.
+
+Methods
+
+The fill() method fills all the elements of an array from a start index to an end index with a static value.
+arr.fill(value)
+arr.fill(value, start)
+arr.fill(value, start, end)
+
+The slice() method returns a shallow copy of a portion of an array into a new array object selected from begin to end (end not included). The original array will not be modified.
+arr.slice()
+arr.slice(begin)
+arr.slice(begin, end)
+
+The indexOf() method returns the first index at which a given element can be found in the array, or -1 if it is not present.
+arr.indexOf(searchElement)
+arr.indexOf(searchElement, fromIndex)
+
+The includes() method determines whether an array includes a certain element, returning true or false as appropriate.
+arr.includes(searchElement)
+arr.includes(searchElement, fromIndex)
+
+The find() method returns the value of the first element in the array that satisfies the provided testing function. Otherwise undefined is returned
+arr.find(callback[, thisArg])
+
+The forEach() method executes a provided function once for each array element
+arr.forEach(function callback(currentValue, index, array) {
+    //your iterator
+}[, thisArg]);
+
+The lastIndexOf() method returns the last index at which a given element can be found in the array, or -1 if it is not present. The array is searched backwards, starting at fromIndex.
+arr.lastIndexOf(searchElement)
+arr.lastIndexOf(searchElement, fromIndex)
+
+The map() method creates a new array with the results of calling a provided function on every element in this array.
+var new_array = arr.map(callback[, thisArg])
+
+The reverse() method reverses an array in place. The first array element becomes the last, and the last array element becomes the first.
+a.reverse()
+
+The splice() method changes the contents of an array by removing existing elements and/or adding new elements.
+array.splice(start)
+array.splice(start, deleteCount)
+array.splice(start, deleteCount, item1, item2, ...)
+
+For String
+
+Properties
+
+The String.prototype property represents the string prototype object. All string instances inherit from String.prototype. Changes to the String prototype object are propagated to all string instances.
+The length property represents the length of a string
+str.length
+
+This property returns the number of code units in the string, the string format used by JavaScript, uses a single 16-bit code unit to represent the most common characters, but needs to use two code units for less commonly-used characters, so it's possible for the value returned by length to not match the actual number of characters in the string.
+Methods
+
+The repeat() method constructs and returns a new string which contains the specified number of copies of the string on which it was called, concatenated together.
+/** 
+ * str: String
+ * count: Number
+ */
+
+let resultString = str.repeat(count)
+
+The codePointAt() method returns a non-negative integer that is the Unicode code point value
+str.codePointAt(pos)
+
+The link() method creates a string representing the code for an <a> HTML element to be used as a hypertext link to another URL.
+str.link(url)
+
+The includes() method determines whether one string may be found within another string, returning true or false as appropriate.
+str.includes(searchString[, position])
+
+The match() method retrieves the matches when matching a string against a regular expression
+str.match(regexp)
+
+The normalize() method returns the Unicode Normalization Form of a given string (if the value isn't a string, it will be converted to one first).
+str.normalize([form])
+
+The startsWith() method determines whether a string begins with the characters of another string, returning true or false as appropriate.
+str.startsWith(searchString[, position])
+
+The localeCompare() method returns a number indicating whether a reference string comes before or after or is the same as the given string in sort order.
+referenceStr.localeCompare(compareString[, locales[, options]])
+
+The search() method executes a search for a match between a regular expression and this String object.
+str.search(regexp)
+
+The toLowerCase() method returns the calling string value converted to lower case.
+str.toLowerCase()
+
+

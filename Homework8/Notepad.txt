@@ -1,0 +1,59 @@
+1)	what are psuedo classes in css?
+
+A CSS pseudo-class is a keyword added to selectors that specifies a special state of the element to be selected. For example :hover will apply a style when the user hovers over the element specified by the selector.
+
+2)	what are pusedo elements in css?
+
+A CSS pseudo-element is used to style specified parts of an element. For example, it can be used to: Style the first letter, or line, of an element. Insert content before, or after, the content of an element.
+
+3)	Diff between pusedo classes and psuedo elements?
+
+A pseudo-class is a selector that assists in the selection of something that cannot be expressed by a simple selector, for example :hover. A pseudo-element however allows us to create items that do not normally exist in the document tree, for example``::after`.
+
+4)	explain all pusedo classes and elements with examples?
+
+The :active selector is used to select and style the active link.A link becomes active when you click on it.
+The ::after selector inserts something after the content of each selected element(s)
+The ::before selector inserts something before the content of each selected element(s)
+The :checked selector matches every checked <input> element (only for radio buttons and checkboxes) and <option> element.
+The :disabled selector matches every disabled element (mostly used on form elements).
+The :empty selector matches every element that has no children (including text nodes)
+The :enabled selector matches every enabled element (mostly used on form elements).
+The :first-child selector is used to select the specified selector, only if it is the first child of its parent.
+The ::first-letter selector is used to add a style to the first letter of the specified selector.
+The ::first-line selector is used to add a style to the first line of the specified selector and can only be used with block-level elements.
+The :first-of-type selector matches every element that is the first child, of a particular type, of its parent.
+The :focus selector is used to select the element that has focus
+The :hover selector is used to select elements when you mouse over them, inorder to be affective :hover MUST come after :link and :visited if listed.
+The :in-range selector selects all elements with a value that is within a specified range
+The :invalid selector selects form elements with a value that does not validate according to the element's settings.
+The :lang() selector is used to select elements with a lang attribute with the specified value.
+The :last-child selector matches every element that is the last child of its parent.
+The :last-of-type selector matches every element that is the last child, of a particular type, of its parent.
+The :link selector is used to select unvisited links.
+The :not(selector) selector matches every element that is NOT the specified element/selector.
+The :nth-child(n) selector matches every element that is the nth child, regardless of type, of its parent.
+n can be a number, a keyword, or a formula.
+The :nth-last-child(n) selector matches every element that is the nth child, regardless of type, of its parent, counting from the last child.
+n can be a number, a keyword, or a formula.
+The :nth-last-of-type(n) selector matches every element that is the nth child, of a particular type, of its parent, counting from the last child.
+The :nth-of-type(n) selector matches every element that is the nth child, of a particular type, of its parent.n can be a number, a keyword, or a formula.
+The :only-of-type selector matches every element that is the only child of its type, of its parent.
+The :only-child selector matches every element that is the only child of its parent.
+The :optional selector selects form elements which are optional.
+Form elements with no required attribute are defined as optional.
+The :out-of-range selector selects all elements with a value that is outside a specified range.
+The :read-only selector selects elements which are "readonly".Form elements with a "readonly" attribute are defined as "readonly".
+The :read-write selector selects form elements which are "readable" and "writeable".Form elements with no "readonly" attribute, and no "disabled" attribute are defined as "read-" and "write-able".
+The :required selector selects form elements which are required. Form elements with a required attribute are defined as required.
+The :root selector matches the document's root element.In HTML, the root element is always the html element.
+	
+5)	what are media queries in css and how can you use them?
+
+The @media rule is used to define different style rules for different media types/devices.
+In CSS2 this was called media types, while in CSS3 it is called media queries.
+Media queries look at the capability of the device, and can be used to check many things, such as: width and height of the viewport, width and height of the device, orientation (is the tablet/phone in landscape or portrait mode?), resolution and much more
+
+
+6)	what is responsive web design?
+Responsive Web design is the approach that suggests that design and development should respond to the user’s behavior and environment based on screen size, platform and orientation. The practice consists of a mix of flexible grids and layouts, images and an intelligent use of CSS media queries. As the user switches from their laptop to iPad, the website should automatically switch to accommodate for resolution, image size and scripting abilities. In other words, the website should have the technology to automatically respond to the user’s preferences. This would eliminate the need for a different design and development phase for each new gadget on the market.

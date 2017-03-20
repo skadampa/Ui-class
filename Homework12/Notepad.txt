@@ -1,0 +1,49 @@
+1)	what are the data types in java script?
+
+JavaScript provides different data types to hold different types of values. There are two types of data types in JavaScript.
+
+1.	Primitive data type
+2.	Non-primitive (reference) data type
+
+JavaScript is a dynamic type language, means you don't need to specify type of the variable because it is dynamically used by JavaScript engine. You need to use var here to specify the data type. It can hold any type of values such as numbers, strings etc. For example:
+JavaScript primitive data types
+
+•	String : Represents sequence of characters ( Ex: Hello)
+•	Number : Represents numeric values ( Ex : 150)
+•	Boolean : Represents Boolean value either True or false
+•	Undefined : Represents undefined value
+•	Null : Represents Null ( No value at all)
+
+
+JavaScript non-primitive data types
+
+•	Object : Represents instance through which we can access members
+•	Array : Represents group of similar values
+•	RegExp : Represents regular expression.
+
+2)	what are the diff between java and javascript espically in terms of variables?
+
+JavaScript does not create applets or stand-alone applications. In its most common form, JavaScript resides inside HTML documents, and can provide levels of interactivity to web pages that are not achievable with simple HTML.The Key differences between Java and JavaScript are Java is an OOP programming language while Java Script is an OOP scripting language. Java creates applications that run in a virtual machine or browser while JavaScript code is run on a browser only. Java code needs to be compiled while JavaScript code are all in text and they require different plug-ins.
+
+3)	why do we use javascript in web pages?
+
+JavaScript is most commonly used as a client side scripting language. This means that JavaScript code is written into an HTML page. When a user requests an HTML page with JavaScript in it, the script is sent to the browser and it's up to the browser to do something with it. This saves  from going back to the server, which is good for: lower band usage, lower server strength usage and better client user experience. A popular framework is jquery. JavaScript is a language that is executed by web browsers and is often used to make dynamic web pages
+
+4)	how to include javascript into webpages?
+
+•	Open sublime text editor
+•	Create a basic html Document
+•	Add a script tag to the HTML's head, and let the text editor know that you'd like to use a javascript language to write your HTML's javascript "program".
+
+<script language="javascript"> tag in the head
+Or Call up other JavaScript scripts using a JavaScript function, through the source destination
+<script type="text/javascript" src= Location>
+</script>
+
+5)	where to include java script in webpages and why?
+
+•	Start a basic HTML document.
+•	In HTML, JavaScript code must be inserted between <script> and </script> tags.
+•	We can place any number of scripts in an HTML document.
+•	Scripts can be placed in the <body>, or in the <head> section of an HTML page, or in both
+

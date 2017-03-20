@@ -26,7 +26,7 @@ The min and max attributes specify the minimum and maximum values for an <input>
 The multiple attribute specifies that the user is allowed to enter more than one value in the <input> element and works with the following input types: email, and file.
 The pattern attribute specifies a regular expression that the <input> element's value is checked against. and pattern attribute works with the following input types: text, search, url, tel, email, and password
 
-3)	what are sematic elements? 
+3)	what are semantic elements? 
 
 A semantic element clearly describes its meaning to both the browser and the developer. For an instance, few elements like <form>, <table>, and <article> precisely explains about the potential outcome.
 

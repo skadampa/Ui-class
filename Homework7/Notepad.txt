@@ -1,0 +1,83 @@
+1.what is the differences between id, class, attribute, tagName selectors and differences between them, when to use what?
+
+ID: 
+This basic selector chooses nodes based on the value of its id attribute. There should be only one element with a given ID in a document.
+Syntax: #idname
+Attribute:
+This basic selector chooses nodes based on the value of one of its attributes.
+Syntax: [attr] [attr=value] [attr~=value] [attr|=value] [attr^=value] [attr$=value] [attr*=value]
+Class:
+This basic selector chooses elements based on the value of their class attribute.
+Syntax: .classname
+
+2.what is css Specificity? --> explain with all possible examples(of all variations)?
+
+Specificity determines, which CSS rule is applied by the browsers. Specificity is usually the reason why the CSS-rules don’t apply to some elements.
+
+Every selector has its place in the specificity hierarchy. If two selectors apply to the same element, the one with higher specificity wins.
+
+There are four distinct categories which define the specificity level of a given selector: inline styles, IDs, classes, attributes, and elements. When selectors have an equal specificity value, the latest rule is the one that counts.
+
+When selectors have an unequal specificity value, the more specific rule is the one that counts. 
+
+Rules with more specific selectors have a greater specificity. The last rule defined overrides any previous, conflicting rules. 
+
+The embedded style sheet has a greater specificity than other rules.ID selectors have a higher specificity than attribute selectors.
+
+One should always try to use IDs to increase the specificity. A class selector beats any number of element selectors.
+
+3) look into all css selectors ? explain with examples?
+	http://www.w3schools.com/cssref/css_selectors.asp
+4) look into all css properties ? explain with examples?
+	http://www.w3schools.com/cssref/default.asp
+
+5) descendent selectors in css?
+
+The ' ' combinator selects nodes that are children (not necessary direct children) of the former specified element.
+Syntax: A B
+Example: div span will match any <span> element that is inside a <div> element.
+
+6) child selector in css?
+
+The '>' combinator selects nodes that are direct children of the former specified element.
+Syntax: A > B
+Example: ul > li will match all <li> elements that are inside a <ul> element.
+
+7) adjacent sibiling selectors in css?
+
+The '+' combinator selects nodes that immediately follow the former specified element.
+Syntax: A + B
+Example: ul + li will match any <li> that immediately follows a <ul>
+
+8) multiple selectors in css? using , comma
+
+Comma “ , “ in css emphasizes to  multiple selectors that can be separated with the same style. Instead of having the style mentioned to each selector , using the comma in between the multiple selectors with same style avoids the extra steps  and it is easy to read & to make any changes in future.
+
+9) varaiations in attribite based selectors?
+
+Attribute selectors select an element using the presence of a given attribute or attribute value.
+
+[attr]
+Represents an element with an attribute name of attr.
+
+[attr=value]
+Represents an element with an attribute name of attr and whose value is exactly "value".
+
+[attr~=value]
+Represents an element with an attribute name of attr whose value is a whitespace-separated list of words, one of which is exactly "value".
+
+[attr|=value]
+Represents an element with an attribute name of attr. Its value can be exactly “value” or can begin with “value” immediately followed by “-” (
+U+002D). It can be used for language subcode matches.
+
+[attr^=value]
+Represents an element with an attribute name of attr and whose first value is prefixed by "value".
+
+[attr$=value]
+Represents an element with an attribute name of attr and whose last value is suffixed by "value".
+
+[attr*=value]
+Represents an element with an attribute name of attr and whose value contains at least one occurrence of string "value" as substring.
+
+[attr operator value i]
+Adding an i (or I) before the closing bracket causes the value to be compared case-insensitively (for characters within the ASCII range).

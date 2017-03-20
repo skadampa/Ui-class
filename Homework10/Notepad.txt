@@ -1,0 +1,48 @@
+1)	bootstrap buttons?
+
+Anything that is given a class of .btn will inherit the default look of a gray button with rounded corners. However, Bootstrap provides some options to style buttons, 
+
+.btn – It is default and standard button
+.btn-primary – Provides extra visual weight and identifies the primary action in a set of buttons.
+.btn-success - Indicates a successful or positive action.
+.btn-info - Contextual button for informational alert messages.
+.btn-warning - Indicates caution should be taken with this action.
+.btn-danger - Indicates a dangerous or potentially negative action.
+.btn-link - Deemphasize a button by making it look like a link while maintaining button behavior.
+
+2)	bootstrap input and input-sizing?
+
+Bootstrap allows the input types: text, password, datetime, datetime-local, date, month, time, week, number, email, url, search, tel, and color.
+Input- Sizing Sets the heights of input elements using classes like .input-lg and .input-sm.
+Set the widths of elements using grid column classes like .col-lg-*and .col-sm-*
+
+3)	bootstrap glyphicon?
+
+Bootstrap glyphicon provides 260 glyphicons from the Glyphicons Halflings set.
+Glyphicons can be used in text, buttons, toolbars, navigation, forms, etc.
+some examples of glyphicons:
+Envelope glyphicon: used to generate envelope symbol
+Print glyphicon: used to generate print icon
+Search glyphicon: used to generate search icon
+Download glyphicon: used to generate download symbol
+
+4)	 bootstrap, images, wels, jumbotron, panel, alerts, badges, labels, lists, pagination, pills
+, tabs, ...
+Images in Bootstrap are made responsive with .img-fluid. max-width: 100%; and height: auto; are applied to the image so that it scales with the parent element.
+
+A well is a container in <div> that causes the content to appear sunken or an inset effect on the page. To create a well, simply wrap the content that you would like to appear in the well with a <div> containing the class of. well.
+
+A jumbotron indicates a big box for calling extra attention to some special content or information. A jumbotron is displayed as a grey box with rounded corners. It also enlarges the font sizes of the text inside it.
+
+A panel in bootstrap is a bordered box with some padding around its content: Panels are created with the .panel class, and content inside the panel has a .panel-body class
+
+Bootstrap provides an easy way to create predefined alert messages such as success alert post the action is completed , warning alert before heading, any info alerts before moving on etc and Alerts are created with the .alert class, followed by one of the four contextual classes .alert-success, .alert-info, .alert-warning or .alert-danger:
+
+Badges are numerical indicators of how many items are associated with a link , use the .badge class within <span> elements to create the badges
+
+Labels are used to provide additional information about somethingUse the .label class,  followed by one of the six contextual classes .label-default, .label-primary, .label-success, .label-info, .label-warning or .label-danger, within a <span> element to create a label.
+
+List groups are a flexible and powerful component for displaying a series of content. List group items can be modified and extended to support just about any content within. They can also be used as navigation with the right modifier class.The most basic list group is an unordered list with list items.To create a basic list group, use an <ul> element with class .list-group, and <li> elements with class .list-group-item.
+
+Pagination links indicate a series of related content exists across multiple pages. Typically these are used where a multi-page approach to long lists of content improves general performance, such as in search results or inboxes
+
